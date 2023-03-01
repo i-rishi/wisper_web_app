@@ -100,7 +100,7 @@ passport.use(
 
 //----------------------get request for home route----------------------
 app.get("/", (req, res) => {
-  res.render("Home");
+  res.render("home");
 });
 
 //----------------------request for secret and submit route----------------------
