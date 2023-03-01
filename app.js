@@ -31,7 +31,7 @@ mongoose.set("strictQuery", true);
 mongoose.connect(
   "mongodb+srv://admin-rishi:" +
     process.env.DB_PASS +
-    "@atlascluster.e15qmbl.mongodb.net/?retryWrites=true&w=majority/userDB",
+    "@atlascluster.e15qmbl.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true },
   () => {
     console.log("Database connected successfully");
