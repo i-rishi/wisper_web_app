@@ -195,7 +195,7 @@ app.get("/logout", (req, res) => {
 
 //----------------------requests for register page-----------------
 app.get("/register", (req, res) => {
-  res.render("Register");
+  res.render("register");
 });
 
 app.post("/register", (req, res) => {
@@ -217,7 +217,7 @@ app.post("/register", (req, res) => {
 
 //----------------------request for login page----------------------
 app.get("/login", (req, res) => {
-  res.render("Login");
+  res.render("login");
 });
 
 app.post("/login", (req, res) => {
